@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DR Arquitetura e Engenharia — projetos residenciais e comerciais com precisão técnica, estética e funcionalidade." />
+  <title>DR Arquitetura e Engenharia</title>
+  <link rel="icon" type="image/png" href="public/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <button class="brand" data-scroll="#inicio" aria-label="Ir para o início">
+      <img src="public/dr_logo_transparente.png" alt="DR Arquitetura e Engenharia" />
+    </button>
+    <nav class="desktop-nav">
+      <button data-scroll="#sobre">Escritório</button><button data-scroll="#servicos">Serviços</button><button data-scroll="#projetos">Projetos</button><button data-scroll="#contato">Contato</button>
+    </nav>
+    <button class="menu-button" aria-label="Abrir menu"><i data-lucide="menu"></i></button>
+  </header>
+
+  <div class="mobile-menu">
+    <button class="close-menu" aria-label="Fechar menu"><i data-lucide="x"></i></button>
+    <button data-scroll="#sobre">Escritório</button><button data-scroll="#servicos">Serviços</button><button data-scroll="#projetos">Projetos</button><button data-scroll="#contato">Contato</button>
+  </div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy-wrap">
+        <h1 class="hero-title"><span class="line">Forma, técnica</span><span class="line">e propósito.</span></h1>
+        <p class="hero-copy">Projetos arquitetônicos e soluções de engenharia concebidos para unir estética, funcionalidade e precisão em cada detalhe.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" data-scroll="#projetos">Conheça nossos projetos <i data-lucide="arrow-down-right"></i></button>
+          <button class="text-link" data-scroll="#contato">Solicitar orçamento</button>
+        </div>
+      </div>
+      <div class="hero-media"><img src="public/images/projeto-02.png" alt="Projeto residencial contemporâneo" /></div>
+    </section>
+
+    <section class="intro" id="sobre">
+      <div class="intro-grid">
+        <h2 class="reveal">Criamos espaços que permanecem <span class="gradient-word">relevantes</span> ao longo do tempo.</h2>
+        <div class="intro-copy reveal"><p>Transformamos ideias em realidade com segurança, legalidade e design inovador. </p><p>A dR arquitetura e engenharia Ltda é especializada em soluções completas de Engenharia e Arquitetura. Unimos a criatividade do design arquitetônico à precisão técnica da engenharia estrutural. 
+Nosso objetivo é entregar projetos que integram estética, funcionalidade e total conformidade com as normas vigentes.</p></div>
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="section-head reveal"><div><h2>Soluções em arquitetura e engenharia que oferecemos.</h2></div></div>
+      <div class="service-list">
+        <article class="service-row reveal"><span>01</span><div class="service-icon"><i data-lucide="pencil-ruler"></i></div><h3>Projeto Arquitetônico</h3><p>Desenvolvimento de projetos funcionais, modernos e personalizados para cada necessidade.</p><i class="service-arrow" data-lucide="arrow-up-right"></i></article>
+        <article class="service-row reveal"><span>02</span><div class="service-icon"><i data-lucide="droplets"></i></div><h3>Projeto Hidrossanitário</h3><p>Planejamento completo das instalações hidráulicas e sanitárias, com eficiência e segurança.</p><i class="service-arrow" data-lucide="arrow-up-right"></i></article>
+        <article class="service-row reveal"><span>03</span><div class="service-icon"><i data-lucide="flame"></i></div><h3>Projeto Preventivo Contra Incêndio</h3><p>Projetos em conformidade com as normas para garantir a segurança da edificação.</p><i class="service-arrow" data-lucide="arrow-up-right"></i></article>
+        <article class="service-row reveal"><span>04</span><div class="service-icon"><i data-lucide="building-2"></i></div><h3>Projeto Estrutural</h3><p>Dimensionamento da estrutura para assegurar estabilidade, resistência e economia.</p><i class="service-arrow" data-lucide="arrow-up-right"></i></article>
+        <article class="service-row reveal"><span>05</span><div class="service-icon"><i data-lucide="armchair"></i></div><h3>Projeto de Interiores</h3><p>Ambientes planejados para unir funcionalidade, conforto e estética.</p><i class="service-arrow" data-lucide="arrow-up-right"></i></article>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos">
+      <div class="section-head reveal"><div><h2>Alguns dos nossos projetos.</h2></div></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-01.png" alt="Residência M"><span class="project-number">01</span></div><div class="project-meta"><h3>Residência M</h3><span>Arquitetura residencial</span></div></article>
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-02.png" alt="Casa RT"><span class="project-number">02</span></div><div class="project-meta"><h3>Casa RT</h3><span>Residencial contemporâneo</span></div></article>
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-03.png" alt="Casa Barra Velha"><span class="project-number">03</span></div><div class="project-meta"><h3>Casa Barra Velha</h3><span>Arquitetura e interiores</span></div></article>
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-04.png" alt="Edifício DP"><span class="project-number">04</span></div><div class="project-meta"><h3>Edifício DP</h3><span>Projeto multifamiliar</span></div></article>
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-05.png" alt="Área de lazer"><span class="project-number">05</span></div><div class="project-meta"><h3>Área de lazer</h3><span>Ampliação residencial</span></div></article>
+        <article class="project-card"><div class="project-image"><img src="public/images/projeto-06.jpg" alt="Edifício comercial"><span class="project-number">06</span></div><div class="project-meta"><h3>Edifício comercial</h3><span>Arquitetura corporativa</span></div></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <h2 class="contact-title reveal">Entre em contato</h2>
+      <div class="contact-shell reveal">
+        <div class="contact-list">
+          <article class="contact-card">
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-details"><span>Laís Molleri</span><a href="mailto:Laismomleridavila@yahoo.com.br">Laismomleridavila@yahoo.com.br</a><a href="tel:+554799234477">(47) 99923-4477</a></div>
+            <button class="copy-contact" data-copy="Laismomleridavila@yahoo.com.br | (47) 99923-4477" aria-label="Copiar contato comercial"><i data-lucide="copy"></i></button>
+          </article>
+          <article class="contact-card">
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-details"><span>Jorge d'Avila</span><a href="mailto:Jorgeldavilajr54@yahoo.com.br">Jorgeldavilajr54@yahoo.com.br</a><a href="tel:+554799873605">(47) 99987-3605</a></div>
+            <button class="copy-contact" data-copy="Jorgeldavilajr54@yahoo.com.br | (47) 99987-3605" aria-label="Copiar contato de projetos"><i data-lucide="copy"></i></button>
+          </article>
+        </div>
+        <aside class="whatsapp-panel">
+          <div class="whatsapp-icon" aria-hidden="true">
+            <svg class="whatsapp-mark" viewBox="0 0 24 24" role="img">
+              <path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.45L3 20.5l1.3-4.72A8.5 8.5 0 1 1 20.5 11.8Z" />
+              <path d="M8.15 7.55c.2-.45.42-.46.73-.47h.62c.18 0 .36.07.46.35l.72 1.76c.08.22.04.4-.1.59l-.56.7c-.16.19-.12.37-.03.53.64 1.1 1.57 2.03 2.67 2.67.17.1.34.14.53-.03l.7-.84c.16-.2.39-.24.61-.15l1.65.77c.25.12.4.25.43.45.08.64-.22 1.48-.7 1.93-.48.44-1.15.68-1.84.67-1.14-.02-2.86-.63-4.55-2.12-1.62-1.43-2.63-3.28-2.72-4.6-.05-.77.18-1.56.66-2.21Z" />
+            </svg>
+          </div>
+          <span class="contact-eyebrow">Atendimento direto</span>
+          <h2>Vamos conversar sobre o seu próximo projeto?</h2>
+          <p>Escolha o setor mais adequado e fale diretamente com nossa equipe pelo WhatsApp.</p>
+          <div class="whatsapp-links">
+            <a href="https://wa.me/554799873605" target="_blank" rel="noopener noreferrer"><span>Jorge</span><i data-lucide="arrow-up-right"></i></a>
+            <a href="https://wa.me/554799234477" target="_blank" rel="noopener noreferrer"><span>Laís</span><i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </aside>
+      </div>
+      <p class="copy-status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <img src="public/dr_logo_transparente.png" alt="DR Arquitetura e Engenharia">
+        <p>Arquitetura e engenharia integradas para transformar ideias em espaços funcionais, precisos e duradouros.</p>
+        <button class="footer-top" data-scroll="#inicio">Voltar ao topo <i data-lucide="arrow-up"></i></button>
+      </div>
+
+      <div class="footer-column">
+        <span class="footer-label">Navegação</span>
+        <button data-scroll="#inicio">Início</button>
+        <button data-scroll="#sobre">Escritório</button>
+        <button data-scroll="#servicos">Serviços</button>
+        <button data-scroll="#projetos">Projetos</button>
+        <button data-scroll="#contato">Contato</button>
+      </div>
+
+      <div class="footer-column">
+        <span class="footer-label">Especialidades</span>
+        <button data-scroll="#servicos">Projeto arquitetônico</button>
+        <button data-scroll="#servicos">Engenharia</button>
+        <button data-scroll="#servicos">Compatibilização</button>
+        <button data-scroll="#servicos">Interiores</button>
+      </div>
+
+      <div class="footer-contact">
+        <span class="footer-label">Fale conosco</span>
+        <div class="footer-whatsapp">
+          <a href="https://wa.me/5547999559197" target="_blank" rel="noopener noreferrer">Comercial <i data-lucide="arrow-up-right"></i></a>
+          <a href="https://wa.me/5547999559198" target="_blank" rel="noopener noreferrer">Projetos <i data-lucide="arrow-up-right"></i></a>
+          <a href="https://wa.me/5547999559199" target="_blank" rel="noopener noreferrer">Obras <i data-lucide="arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 DR Arquitetura e Engenharia</p>
+      <div><span>Arquitetura</span><span>Engenharia</span><span>Interiores</span></div>
+      <p>Projetado com atenção aos detalhes.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
