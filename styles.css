@@ -67,6 +67,11 @@ footer img{filter:none}
 @media(max-width:900px){.intro{min-height:auto;padding-top:140px;padding-bottom:140px}.intro-grid{gap:54px}}
 @media(max-width:600px){.intro{padding-top:110px;padding-bottom:110px}.intro-grid{gap:38px}}
 
+@media(max-width:600px){
+  .hero-actions .text-link{background:var(--orange);color:var(--ink);padding:16px 20px;font-weight:600}
+  .hero-actions .text-link:after{display:none}
+}
+
 /* Emphasis in the office statement */
 .intro h2{font-weight:400}
 .gradient-word{color:var(--orange);font-weight:500}
