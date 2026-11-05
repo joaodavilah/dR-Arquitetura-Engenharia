@@ -75,3 +75,7 @@ footer img{filter:none}
 /* Emphasis in the office statement */
 .intro h2{font-weight:400}
 .gradient-word{color:var(--orange);font-weight:500}
+
+/* Keep structural models fully visible within the existing project cards. */
+.project-image-structural{background:#83a1c3}
+.project-image-structural img{object-fit:contain}
